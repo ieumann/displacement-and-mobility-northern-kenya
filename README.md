@@ -1,4 +1,4 @@
-**Analysing and Evaluating Mobility in Northern Kenya**
+# Analysing and Evaluating Mobility in Northern Kenya
 
 The project's aim is to identify the key factors influencing mobility in the North of Kenya. And specifically observe the role droughts play in the region. Without a specific target, the analysis is done by applying unsupervised learning.
 
