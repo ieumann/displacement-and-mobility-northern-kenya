@@ -1,6 +1,6 @@
 ## Analysing and Evaluating Mobility in Northern Kenya
 
-The project's aim is to identify the key factors influencing mobility in the North of Kenya. And specifically observe the role droughts play in the region. Without a specific target, the analysis is done by applying unsupervised learning.
+The project's aim is to identify the key factors influencing mobility in the North of Kenya. And specifically observe the role droughts play in the region. With a multi-factor target, the analysis is done by applying unsupervised learning.
 
 **BACKGROUND:** The ASAL region of Kenya has endured three severe droughts in the last decade (2010-2011, 2016-2017 and 2020-2022). The most recent drought (2020 - 2022) has also been the most severe and longest with widespread livelihood losses and massive displacement of populations.
 
