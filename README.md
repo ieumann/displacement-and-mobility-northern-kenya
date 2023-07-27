@@ -11,35 +11,21 @@ The dataset is based on in-situ surveys carried out in five counties in Northern
 The original datasource: https://data.humdata.org/dataset/kenya-displacement-baseline-multi-sectoral-location-assessment-iom-dtm
 
 The data analysis involved extensive cleaning of the dataset derived from the five surveys. The final dataset contains 861 entries (=locations with differing number of households) and 48 features. The machine learning algorithm applied is KMeans for clustering and involves Principal Component Analysis (PCA). 
-During PCA, 10 features were identified to weight most allowing to identify specific drivers for mobility and displacement in the region. Based on these
+During PCA, 10 features were identified to weight most allowing to identify specific drivers for mobility and displacement in the region.
 
 **SUMMARY OF FINDINGS:**
     
-1. In approx. one third of locations (village unit or urban settlement/town) in the region surveyed, only 25% of inhabitants have access to cooking as well as to drinking water.
-2. In approximately 50% of locations inhabitants have a water source distance of 50 minutes and additionally experience a water queue time of 50 minutes.
-3. In around 45% of the locations, drought was the primary reason for returning of households to this location.
-4. In around 75% of locations, resource-based conflict was the second reason for departure of households from this location.
-5. In approximately one third of locations, resource-based conflict was also the second reason for households to drop pastoralism.
-6. Environmental challenges was reported as the first challenge in approx. 45% of locations.
-7. Lack of food and water was reported as the second challenge in approx. 35% of locations.
-8. The health concern that influenced the analysis most was pneumonia in around 50% of locations with Malaria being the main health concern overall.
+1. In one third of locations (village unit or urban settlement/town) in the region surveyed, only 25% of inhabitants have access to cooking water, the same applies to drinking water.
+2. In on average 40% of locations, inhabitants have a water source distance of 50 minutes and additionally experience a water queue time of 50 minutes, possibly indicating a scarcity of water sources and higher demand. 
+3. Drought is the dominant reason for departure from locations, reported in a significant 793 areas (around 90% of locations). This further emphasizes the critical role of water availability in these communities. Followed by the second most common reason for departure, resource-based conflict in approx. 75% of locations, indicates significant struggles over resources, likely including water.
+4. The reason for abandoning pastoralism reveals vital information about regional issues. The leading reason in about one third of areas is resource-based conflict, followed closely by lack of water and pasture.
+5. The primary reason for returning to their original locations reported in 381 of 861 areas is drought, indicating a severe lack of water sources in the areas they moved to.
+6. Environmental challenges was reported as the first challenge in approx. 50% of locations, which likely include issues related to water availability and quality. 
+7. The second most reported challenge across locations is lack of food and water (ca. 30% of areas), suggesting issues of food and water scarcity are prevalent. Safety and security, reported in 196 locations, may also be indirectly tied to resource scarcity leading to conflicts.
 
-**It is possible to discern that several of these factors are related to water scarcity.**
- 
-The accessibility of water for cooking is directly indicated by one feature. A lower percentage here suggests that water scarcity is an issue.
-Similarly, another feature shows the availability of drinking water. If the percentage is low, it suggests a scarcity of water.
-Another feature is the distance to the water source. A larger distance could signify that water scarcity is present, as it means individuals need to travel further to reach water.
-The time spent in queues for water is another feature. Longer waiting times could indicate water scarcity, as it suggests that more individuals are attempting to access limited water resources.
-One feature presents the first reason for returning to the original location, where 'drought' is mentioned. This suggests that water scarcity, taking the form of a drought, was a significant factor in a household's decision to return.
-The second challenge faced, as indicated by one feature, is 'lack of food and water'. This challenge is a direct reference to water scarcity.
-The first challenge, described as 'environmental challenges' in another feature, could indirectly be related to water scarcity. This is because environmental challenges often encompass issues related to water availability.
+In summary, the most impactful features, based on their weights in the first three principal components, highlight water accessibility, both for drinking and cooking, as well as the broader challenges that water scarcity can present, such as drought, resource-based conflicts, and abandonment of traditional livelihoods like pastoralism.
 
-Adding to these:
-The second reason for departure, as stated in one feature, is 'resource-based conflict'. In this region, such conflicts often emerge due to water scarcity.
-The second reason to abandon pastoralism, according to another feature, is also 'resource-based conflict'. The reason for dropping pastoralism could be the lack of water for cattle due to drought. Given the vast space in this region, it is unlikely that a land-related conflict is the cause.
+Based on the current analysis, all of the 10 features can be directly or indirectly associated with water scarcity under certain conditions. <br>
+**Hence, 100% of the factors can be linked to water scarcity.**
 
-**Based on the current analysis 9 out of the 10 features can be directly or indirectly associated with water scarcity under certain conditions. Hence, 90% of the drivers for mobility can be linked to water scarcity.**
-    
-Features such as ethnic clashes, safety concerns or access to an educational facility appear to be less important drivers for displacement in the region. <br>
-
-However, a more detailed analysis e.g. of additional features in the dataset could provide a more accurate picture of the individual motivation for mobility at a specific point in time.
+Features such as ethnic clashes, safety concerns or access to an educational facility appear to be less important drivers for mobility in the region. However, a more detailed analysis e.g. of additional features in the dataset could provide a more accurate picture of the individual motivation for mobility at a specific point in time. It can help to better understand the underlying causes of these issues and suggest effective interventions.
