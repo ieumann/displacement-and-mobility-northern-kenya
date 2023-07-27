@@ -10,7 +10,8 @@ The dataset is based on in-situ surveys carried out in five counties in Northern
 
 The original datasource: https://data.humdata.org/dataset/kenya-displacement-baseline-multi-sectoral-location-assessment-iom-dtm
 
-The data analysis involved intense cleaning of the dataset derived from the five surveys. The final dataset contains 861 entries (=locations with differing number of households) and 48 features. The machine learning algorithm applied is KMeans for clustering and involves Principal Component Analysis (PCA).
+The data analysis involved intense cleaning of the dataset derived from the five surveys. The final dataset contains 861 entries (=locations with differing number of households) and 48 features. The machine learning algorithm applied is KMeans for clustering and involves Principal Component Analysis (PCA). 
+During PCA, 10 features were identified to weight most allowing to identify specific drivers for mobility and displacement in the region.
 
 **SUMMARY OF FINDINGS:**
     
@@ -24,10 +25,22 @@ The data analysis involved intense cleaning of the dataset derived from the five
 8. Lack of food and water was reported as the second challenge in 40% of locations.
 9. Malaria was the top health concern in just above 60% of locations.
 
-#### It is possible to discern that several of these factors are related to water scarcity. 
+**It is possible to discern that several of these factors are related to water scarcity.**
+ 
+The accessibility of water for cooking is directly indicated by one feature. A lower percentage here suggests that water scarcity is an issue.
+Similarly, another feature shows the availability of drinking water. If the percentage is low, it suggests a scarcity of water.
+Another feature is the distance to the water source. A larger distance could signify that water scarcity is present, as it means individuals need to travel further to reach water.
+The time spent in queues for water is another feature. Longer waiting times could indicate water scarcity, as it suggests that more individuals are attempting to access limited water resources.
+One feature presents the first reason for returning to the original location, where 'drought' is mentioned. This suggests that water scarcity, taking the form of a drought, was a significant factor in a household's decision to return.
+The second challenge faced, as indicated by one feature, is 'lack of food and water'. This challenge is a direct reference to water scarcity.
+The first challenge, described as 'environmental challenges' in another feature, could indirectly be related to water scarcity. This is because environmental challenges often encompass issues related to water availability.
 
-Based on the current analysis 9 out of the 10 features can be directly or indirectly associated with water scarcity under certain conditions. **Hence, 90% of the factors can be linked to water scarcity.**
+Adding to these:
+The second reason for departure, as stated in one feature, is 'resource-based conflict'. In this region, such conflicts often emerge due to water scarcity.
+The second reason to abandon pastoralism, according to another feature, is also 'resource-based conflict'. The reason for dropping pastoralism could be the lack of water for cattle due to drought. Given the vast space in this region, it is unlikely that a land-related conflict is the cause.
+
+**Based on the current analysis 9 out of the 10 features can be directly or indirectly associated with water scarcity under certain conditions. Hence, 90% of the drivers for mobility can be linked to water scarcity.**
     
-Features such as ethnic clashes, safety concerns or access to an educational facility appear to be less important drivers for mobility in the region. <br>
+Features such as ethnic clashes, safety concerns or access to an educational facility appear to be less important drivers for displacement in the region. <br>
 
 However, a more detailed analysis e.g. of additional features in the dataset could provide a more accurate picture of the individual motivation for mobility at a specific point in time.
