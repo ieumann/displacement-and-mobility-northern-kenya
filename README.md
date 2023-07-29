@@ -10,7 +10,7 @@ The dataset is based on in-situ surveys carried out in five counties in Northern
 
 The original datasource: https://data.humdata.org/dataset/kenya-displacement-baseline-multi-sectoral-location-assessment-iom-dtm
 
-![Counties by Assessment Date](https://github.com/ieumann/displacement-and-mobility-northern-kenya/blob/199886f44b281b77a5ad018df650d60aa6715c86/Screenshot%202023-07-28%20at%2022.09.52.png)
+![Counties by Assessment Date](https://github.com/ieumann/displacement-and-mobility-northern-kenya/blob/2305b913a6860e1ed924001b500b5331075d63a8/visuals/Assessment%20Date%20by%20Location.png)
 
 The data analysis involved extensive cleaning of the dataset derived from the five surveys. The final dataset contains 861 entries (=locations with differing number of households) and 48 features. The machine learning algorithm applied is KMeans for clustering and involves Principal Component Analysis (PCA). 
 During PCA, 10 features were identified to weight most allowing to identify specific drivers for mobility and displacement in the region.
