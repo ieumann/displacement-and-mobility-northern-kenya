@@ -16,7 +16,7 @@ The data analysis involved extensive cleaning of the dataset derived from the fi
 During PCA, 10 features were identified to weight most allowing to identify specific drivers for mobility and displacement in the region.
 
 Find a Tableau Story visualizing the main findings here: 
-https://public.tableau.com/views/AnalysisofMobilityandDisplacementinNorthernKenya/STORY?:language=en-US&:display_count=n&:origin=viz_share_link
+[Tableau Story](https://public.tableau.com/views/AnalysisofMobilityandDisplacementinNorthernKenya/STORY?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 **SUMMARY OF FINDINGS:**
     
@@ -35,4 +35,4 @@ Based on the current analysis, all of the 10 features can be directly or indirec
 
 Features such as ethnic clashes, safety concerns or access to an educational facility appear to be less important drivers for mobility in the region. However, a more detailed analysis e.g. of additional features in the dataset could provide a more accurate picture of the individual motivation for mobility at a specific point in time. It can help to better understand the underlying causes of these issues and suggest effective interventions.
 
-I presented the analysis as my final project of the Data Sciences course at Ironhack. Here you can find the presentation: https://prezi.com/view/HFxaN8X96vwHwFiaku2a/
+I presented the analysis as my final project of the Data Sciences course at Ironhack. Here you can find the presentation: [Prezi](https://prezi.com/view/HFxaN8X96vwHwFiaku2a/)
