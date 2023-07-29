@@ -8,9 +8,9 @@ The project's aim is to identify the key factors influencing mobility in the Nor
 
 The dataset is based on in-situ surveys carried out in five counties in Northern Kenya in 2022-23 organized by United Nations Office for the Coordination of Humanitarian Affairs (OCHA). In order to combine the datasets, I previously standardized in Excel the questions across the five surveys. Additionally, I deleted (majorily) empty columns, columns that don't exist across all five datasets, and columns with identical/highly similar information. I also divided columns with more than one data point per cell in the respective amount of individual cells.
 
-![Counties by Assessment Date]((https://github.com/ieumann/displacement-and-mobility-northern-kenya/blob/199886f44b281b77a5ad018df650d60aa6715c86/Screenshot%202023-07-28%20at%2022.09.52.png))
-
 The original datasource: https://data.humdata.org/dataset/kenya-displacement-baseline-multi-sectoral-location-assessment-iom-dtm
+
+![Counties by Assessment Date](https://github.com/ieumann/displacement-and-mobility-northern-kenya/blob/199886f44b281b77a5ad018df650d60aa6715c86/Screenshot%202023-07-28%20at%2022.09.52.png)
 
 The data analysis involved extensive cleaning of the dataset derived from the five surveys. The final dataset contains 861 entries (=locations with differing number of households) and 48 features. The machine learning algorithm applied is KMeans for clustering and involves Principal Component Analysis (PCA). 
 During PCA, 10 features were identified to weight most allowing to identify specific drivers for mobility and displacement in the region.
