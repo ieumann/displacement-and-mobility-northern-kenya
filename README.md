@@ -15,7 +15,7 @@ The original datasource: [Humanitarian Data Exchange](https://data.humdata.org/d
 The data analysis involved extensive cleaning of the dataset derived from the five surveys. The final dataset contains 861 entries (=locations with differing number of households) and 48 features. The machine learning algorithm applied is KMeans for clustering and involves Principal Component Analysis (PCA). 
 During PCA, 10 features were identified to weight most allowing to identify specific drivers for mobility and displacement in the region.
 
-Visualizations of the main findings: [Tableau Story](https://public.tableau.com/views/AnalysisofMobilityandDisplacementinNorthernKenya/STORY?:language=en-US&:display_count=n&:origin=viz_share_link)
+Visualization of the main findings: [Tableau Story](https://public.tableau.com/views/AnalysisofMobilityandDisplacementinNorthernKenya/STORY?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 **SUMMARY OF FINDINGS:**
     
@@ -34,4 +34,4 @@ Based on the current analysis, all of the 10 features can be directly or indirec
 
 Features such as ethnic clashes, safety concerns or access to an educational facility appear to be less important drivers for mobility in the region. However, a more detailed analysis e.g. of additional features in the dataset could provide a more accurate picture of the individual motivation for mobility at a specific point in time. It can help to better understand the underlying causes of these issues and suggest effective interventions.
 
-I presented the analysis as my final project of the Data Sciences course at Ironhack: [Prezi](https://prezi.com/view/HFxaN8X96vwHwFiaku2a/)
+The analysis was presented as my final project of a Data Sciences course at Ironhack: [Prezi](https://prezi.com/view/HFxaN8X96vwHwFiaku2a/)
