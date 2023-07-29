@@ -8,7 +8,7 @@ The project's aim is to identify the key factors influencing mobility in the Nor
 
 The dataset is based on in-situ surveys carried out in five counties in Northern Kenya in 2022-23 organized by United Nations Office for the Coordination of Humanitarian Affairs (OCHA). In order to combine the datasets, I previously standardized in Excel the questions across the five surveys. Additionally, I deleted (majorily) empty columns, columns that don't exist across all five datasets, and columns with identical/highly similar information. I also divided columns with more than one data point per cell in the respective amount of individual cells.
 
-/Users/ingaeumann/Documents/LERNEN/DATA Sciences/IRONHACK/Final Project/displacement-and-mobility-northern-kenya/viz/Screenshot 2023-07-28 at 22.09.52.png
+![Counties by Assessment Date](url)
 
 The original datasource: https://data.humdata.org/dataset/kenya-displacement-baseline-multi-sectoral-location-assessment-iom-dtm
 
